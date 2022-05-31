@@ -1,86 +1,77 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 3px;
+    padding: 0px;
     font-family: sans-serif;
     box-sizing: border-box;
 }
-.container{
+.navbar{
+    background-color: #fcd34d;
+    margin-top: -6px;
     width: 100%;
+    border-radius: 5px;
 }
-.wrapper{
-    width: 90%;
-    height: 100vh;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+.navbar li{
+    /* float is for list direction */
+    float: right;
+    /* list style is remove for bullets */
+    list-style: none; 
+    margin: 13px 20px;
+    font-family: sans-serif;
 }
-.text{
-    flex-basis: 45%;
-}
-.all-images{
-    height: 80vh;
-    display: flex;
-}
-.small-images{
-    display: flex;
-    flex-direction: column;
-}
-.small-images img{
-    height: 19vh;
-    margin-bottom: 9px;
-    cursor: pointer;
-    opacity: 0.6;
-}
-.small-images img:hover{
-    opacity: 1;
-}
-.main-images img{
-    height: 100%;
-}
-p{
-    margin-bottom: 20px;
-}
-.brand{
-    background-color: aquamarine;
-    width: fit-content;
-    color: #fff;
-    padding: 2px 5px;
-    font-size: 12px;
+
+.navbar li a{
+    padding: 3px 3px ;
+    /* for removing underline */
+    text-decoration: none;
+    color: black;
 
 }
-h2{
-    font-size: 35px;
-    color: #555;
-    margin-bottom: 20px;
+.navbar li a:hover{
+    color: #3a342ad7;
+
 }
-.review{
-    background-color: #008000;
-    display: inline-block;
-    color: #fff;
-    padding: 4px;
-    border-radius: 5px;
-    font-size: 15px;
+
+    
+.section{
+   background-color: #fcd34d; 
+   margin: 15%;
+   padding-left: 0%;
+   padding-right: 20%;
+   margin-left: 0px;
+   margin-right: 0px;
+   height: 350px;
 }
-.review .fa{
-    color: #fff;
+.section h2{
+text-align: center;
+font-family: sans-serif;
+margin-top: 10px;
+padding-left: 28%;
+padding-top: 6%;
 }
-.price{
-    color: #555;
-    font-size: 26px;
-    font-weight: bold;
-    padding-top: 10px;
-    padding-right: 10px;
-}
-.price-box{
-    display: flex;
-    align-items: center;
-}
-input{
-    width: 30px;
-    border: 1px solid #ccc;
-    font-weight: bold;
+.section p{
     text-align: center;
+    font-family: sans-serif;
+    font-size: medium;
+    padding-left: 28%;
+    }
+
+
+
+.navbar ul{
+    /* gayab color ko lane ke liye */
+    overflow: auto;
+}
+.small-image{
+    float: right;
+    margin-top: 5%;
+    margin-right: 5%;
+}
+
+.div-paragraph{
+    font-weight: bold;
+    padding-top: 10%;
+    padding-left: 10%;
+    font-size: 45px;
 }
 button{
     width: 140px;
@@ -88,48 +79,84 @@ button{
     font-size: 15px;
     outline: none;
     border: 0;
-    background-color: #fe980f;
+    background-color: #fcd34d;
     border-radius: 5px;
     padding: 10px 15px;
     box-sizing: border-box;
     cursor: pointer;
+    
 }
-button.fa{
-    margin-right: 10px;
+button:hover{
+    color:rgb(226, 197, 159)
 }
-.buy{
-    background-color: rgb(201,97,57);
+.wrapper{
+    padding-left: 5%;
+    padding-top: 5%;
 }
-@media only screen and(max-width: 1200px){
-    .wrapper{
-        flex-direction: column;
-        height: auto;
-        padding: 5% 0;
-    }
-    .text{
-        padding-top: 50px;
-    }
+.wrapper h2{
+    text-align: center;
+    margin-top: -180px;
 }
-@media only screen and(max-width: 1200px){
-    .all-images{
-        flex-direction: column;
-        height: auto;
-    }
-    .small-images{
-        flex-direction: row;
-        justify-content: space-evenly;
-        order: 1;
-    }
-    .product-box{
-        width: 100%;
-    }
-    .main-images{
-        width: 100%;
-    }
-    .small-images img{
-        width: 25%;
-    }
-    h2{
-        font-size: 25px;
-    }
+.wrapper p{
+    text-align: center;
+}
+.font{
+    text-align: center;
+
+
+}
+.display{
+
+    padding-bottom: 2px;
+    
+}
+.camera{
+    padding-bottom: 10%;
+    margin-top: -10%;
+}
+.charge{
+    padding-left: 76%;
+    margin-top: 20%;
+}
+.processor{
+    padding-left: 75%;
+    margin-bottom: 20%;
+}
+.mobile{
+    padding-bottom: 6%;
+}
+.ending{
+    background-color: #fcd34d; 
+   margin: 5%;
+   padding-left:46%;
+   padding-right: 20%;
+   margin-left: 0px;
+   margin-right: 0px;
+   height: 200px;
+  font-family: sans-serif;
+}
+.footer{
+    background-color: black;
+    height: 100px;
+    margin-top: -65px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.paragraph{
+    text-align: center;
+ color: azure;
+ padding-top: 8px;
+}
+.follow{
+    padding-top: 25px;
+}
+.copyright li{
+    list-style: none;
+    float: right;
+    padding-right: 50%;
+}
+.icons{
+    cursor: pointer;
+	transition: 0.4s;
+
 }

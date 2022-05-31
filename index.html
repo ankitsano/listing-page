@@ -4,57 +4,94 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Product Page</title>
-    <link
-      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css" />
+    <title>Landing Page</title>
   </head>
   <body>
-    <div class="container">
-      <div class="wrapper">
-        <div class="product-box">
-          <div class="all-images">
-            <div class="small-images">
-              <img src="a2.jpg.webp" onclick="clickimg(this)" />
-              <img src="a1.jpg.webp" onclick="clickimg(this)" />
-            </div>
-            <div class="main-images">
-              <img src="a2.jpg.webp" alt="imagebox" />
-            </div>
-          </div>
+    <header>
+      <nav class="navbar">
+        <ul>
+          <li class="left"><a href="#">New Mobile Launch</a></li>
+          <li><a href="#">Purchase</a></li>
+          <li><a href="#">Features</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <section>
+        <div class="small-image">
+          <img src="iphone.jpg" alt="" />
         </div>
-        <div class="text">
-          <div class="content">
-            <p class="brand">Brand:Levis</p>
-            <h2>GIFZY Graphic Print Men Round Neck White T-Shirt</h2>
-            <div class="review">
-              <span>(4.6)</span>
-              <span class="fa fa-star"></span>
-            </div>
-            <div class="price-box">
-              <p class="price">&#8377;700</p>
-              <strike>&#8377;900</strike>
-            </div>
-            <p>
-              Size:
-              <select name="size">
-                <option value="select colour">select colour</option>
-                <option value="white">white</option>
-              </select>
-            </p>
-            <p>Quantity: <input type="text" value="1" /></p>
-            <button>
-              <span class="fa fa-shoping-cart"></span>
-              Add to cart
-            </button>
-            <button class="buy">
-              <span class="fa fa-shopping-cart"></span>
-              Buy now
-            </button>
-          </div>
+        <div class="div-paragraph">
+          <p>
+            Pretty much everything you want in a new phone.<br />No.1 Selling
+            Smartphone
+          </p>
+          <button class="buy">Buy Now For Lowest Price</button>
+        </div>
+      </section>
+    </header>
+    <section class="section">
+      <h2>Download our VR Store app to experince the phone.</h2>
+      <br />
+      <p>
+        Our store's official app is available on any mobile device Download now
+        to get started
+      </p>
+    
+    </section>
+    <section class="wrapper">
+      <div>
+      <h2>Latest Harware,Unmatched Features</h2>
+      <br />
+      <p>Check out what you can do with this phone!</p>
+      <img class="mobile" src="a5.jpg" alt="" />
+    </div>
+      <div class="camera">
+        <i class="fa-solid fa-camera"></i>
+        <h2>Best in Class Camera</h2>
+        <p>Night version tons of filters and crisper pictures</p>
+      </div>
+      <div class="display">
+        <h2>Stunning Display</h2>
+        <p>Display with latest technology</p>
+      </div>
+      <div class="processor">
+        <h2>Latest Processor</h2>
+        <p>Latest processor to meet heavy usage!</p>
+      </div>
+      <div class="charge">
+        <h2>Fast Charge</h2>
+        <p>Charge faster in lessser time!</p>
+      </div>
+    </section>
+    <section>
+      <div class="ending">
+        <h2 class="follow">Follow us on</h2>
+        <div class="icons">
+          <i class="fa fa-facebook"></i>
+          <i class="fa fa-instagram"></i>
+          <i class="fa fa-whatsapp"></i>
+          <i class="fa fa-envelope"></i>
+          <i class="fa fa-twitter"></i>
+           <i class="fa fa-google"></i>
         </div>
       </div>
-    </div>
+      <section>
+        <div class="footer">
+          <p class="paragraph">Your Website 2021.All Rights Reserved.</p>     
+          <nav class="copyright">
+            <ul>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">FAQ</a></li>
+          </ul>
+        </nav>
+        </div>
+      </section>
+    </section>
   </body>
 </html>
