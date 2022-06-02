@@ -1,162 +1,222 @@
-*{
-    margin: 3px;
-    padding: 0px;
-    font-family: sans-serif;
-    box-sizing: border-box;
+*{padding: 0; margin: 0; box-sizing: border-box;}
+body{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
 }
-.navbar{
-    background-color: #fcd34d;
-    margin-top: -6px;
+header{
     width: 100%;
-    border-radius: 5px;
+    height: 90vh;
+    background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),
+                        url('Resources/cover.jpg');
+    background-size: cover;
+    background-attachment: fixed;
 }
-.navbar li{
-    /* float is for list direction */
-    float: right;
-    /* list style is remove for bullets */
-    list-style: none; 
-    margin: 13px 20px;
-    font-family: sans-serif;
-}
-
-.navbar li a{
-    padding: 3px 3px ;
-    /* for removing underline */
-    text-decoration: none;
-    color: black;
-
-}
-.navbar li a:hover{
-    color: #3a342ad7;
+nav{
+    width: 100%;
+    height: 80px;
+    background: black;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 80px;
+    position: fixed;
+    top: 0;
 
 }
-
-    
-.section{
-   background-color: #fcd34d; 
-   margin: 15%;
-   padding-left: 0%;
-   padding-right: 20%;
-   margin-left: 0px;
-   margin-right: 0px;
-   height: 350px;
+.menu a{
+ text-decoration:none;
+ color: white;
+ padding: 10px 20px;
+ /* background-color: rgb(191, 226, 226); */
+ font-family: sans-serif;
+ font-size: 20px;
 }
-.section h2{
-text-align: center;
-font-family: sans-serif;
-margin-top: 10px;
-padding-left: 28%;
-padding-top: 6%;
+.menu a:hover{
+    color: #e74c3c;
 }
-.section p{
+.h-text{
+    color: white;
+    max-width: 700px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
     text-align: center;
+}
+.h-text h1{
     font-family: sans-serif;
-    font-size: medium;
-    padding-left: 28%;
-    }
+    font-size: 2em;
+    line-height: 1em;
 
-
-
-.navbar ul{
-    /* gayab color ko lane ke liye */
-    overflow: auto;
 }
-.small-image{
-    float: right;
-    margin-top: 5%;
-    margin-right: 5%;
-}
-
-.div-paragraph{
-    font-weight: bold;
-    padding-top: 10%;
-    padding-left: 10%;
-    font-size: 45px;
-}
-button{
-    width: 140px;
-    color: #fff;
-    font-size: 15px;
+.h-text button{
+    width: 20%;
+    padding: 20px;
+    background: grey;
+    color: white;
+    border: none;
     outline: none;
-    border: 0;
-    background-color: #fcd34d;
-    border-radius: 5px;
-    padding: 10px 15px;
-    box-sizing: border-box;
-    cursor: pointer;
+    border-radius: 3px;
+    font-size: 15px;
+    margin-top: 20px;
+}
+.component{
+    /* color: white; */
+    /* max-width: 300px; */
+    /* top: 50%; */
+    /* left: 50%; */
+    /* transform: translate(-50%,-50%); */
+    text-align: center;
+}
+.firstpara{
+padding-left: 0%;
+margin-top: 20px;
+text-align: center;
+margin-bottom: 10px;
+}
+
+.heading{
+    margin-top: 30px;
+}
+.component1{
+    width: 100%;
+    height: 400px;
+    background: black;
     
 }
-button:hover{
-    color:rgb(226, 197, 159)
+.img{
+    width: 293px;
+    height: 200px;
+    margin-left: 10%;
 }
-.wrapper{
-    padding-left: 5%;
-    padding-top: 5%;
+.h3{
+    color: white;
+    margin-left: 25%;
 }
-.wrapper h2{
-    text-align: center;
-    margin-top: -180px;
+.p{
+    color: white;
+    margin-left: 25%;
 }
-.wrapper p{
-    text-align: center;
-}
-.font{
-    text-align: center;
-
-
-}
-.display{
-
-    padding-bottom: 2px;
-    
-}
-.camera{
-    padding-bottom: 10%;
-    margin-top: -10%;
-}
-.charge{
-    padding-left: 76%;
-    margin-top: 20%;
-}
-.processor{
-    padding-left: 75%;
-    margin-bottom: 20%;
-}
-.mobile{
-    padding-bottom: 6%;
-}
-.ending{
-    background-color: #fcd34d; 
-   margin: 5%;
-   padding-left:46%;
-   padding-right: 20%;
-   margin-left: 0px;
-   margin-right: 0px;
-   height: 200px;
-  font-family: sans-serif;
-}
-.footer{
-    background-color: black;
-    height: 100px;
-    margin-top: -65px;
-    margin-left: 0px;
-    margin-right: 0px;
-}
-.paragraph{
-    text-align: center;
- color: azure;
- padding-top: 8px;
-}
-.follow{
+.first{
+    padding-left: 100px;
+    color: white;
     padding-top: 25px;
+    float: left;
+    
 }
-.copyright li{
-    list-style: none;
-    float: right;
-    padding-right: 50%;
+.img1{
+    width: 293px;
+    height: 200px;
 }
-.icons{
-    cursor: pointer;
-	transition: 0.4s;
+.h3heading{
+color: white;
+font-family: sans-serif;
+margin-left: 14%;
+}
+.p1{
+    color: white;
+    margin-left: 14%;
+    font-family: sans-serif;
+}
+.second{
+  float: right;
+  padding-right: 100px;
+  padding-bottom: 20px;
+  margin-top: 25px;
 
 }
+.third{
+text-align: center;
+padding-left: 30%;
+margin-bottom: 50px;
+padding-top: 25px;
+
+}
+.img2{
+    width: 293px;
+    height: 200px;
+}
+.h4heading{
+    color: white;
+    font-family: sans-serif;
+}
+.p2{
+    color: white;
+    font-family: sans-serif;
+}
+.component2{
+    width: 100%;
+    height: 150px;
+    text-align: center;
+
+}
+.head{
+    /* text-align: center; */
+    padding-left: 5%;
+    margin-top: 20px;
+}
+.par{
+    padding-left: 10px;
+}
+
+/* about and contact us section  */
+
+
+#container{
+float: left;
+width: 50%;
+background:rgb(149, 149, 238);
+color: white;
+padding-left: 20%;
+height: 200px;
+}
+#about{
+    width: 50%;
+float: right;
+background: rgb(32, 32, 32);
+color: white;
+padding-right: 16%;
+height: 200px;
+}
+#contact{
+margin-top: 25px;
+padding: right 25px; ;
+}
+
+#company{
+margin-top: 25px;
+margin-left: 125px;
+}
+#lorem{
+    margin-left: 125px;
+}
+
+/* fotter section */
+
+#text{
+float: left;
+background: rgb(32, 32, 32);
+color: white;
+width: 50%;
+height: 100px;
+font-family: sans-serif;
+padding-left: 25%;
+padding-top: 40px;
+
+}
+#project{
+float: right;background: rgb(32, 32, 32);
+color: white;
+width: 50%;
+height: 100px;
+font-family: sans-serif;
+padding-left: 15%;
+padding-top: 40px;
+
+}
+span{
+    color: #e74c3c;
+
+}
+
